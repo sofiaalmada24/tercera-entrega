@@ -1,0 +1,151 @@
+main .nosotros .paragraph-two, main .inicio .paragraph-one {
+  text-align: center;
+  font-size: large;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  main .inicio .paragraph-one {
+    font-size: small;
+  }
+  main .inicio .image-two {
+    width: 400px;
+    height: 200px;
+  }
+}
+@media screen and (max-width: 768px) {
+  footer .copyright {
+    font-size: x-small;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .promociones img {
+    width: 300px;
+    height: 300px;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .nosotros .paragraph-two {
+    font-size: small;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .container .section-one iframe.mapa {
+    width: 200px;
+    height: 200px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .grid-container {
+    grid-template-rows: repeat(4, 500px);
+    grid-template-columns: 1fr;
+  }
+}
+header .bg-one {
+  background: linear-gradient(to bottom, white, blanchedalmond);
+}
+header .image-logo {
+  width: 100px;
+  height: 100px;
+}
+header .navbar-nav .nav-item:hover {
+  color: blueviolet;
+  text-decoration: underline;
+}
+
+main .inicio {
+  margin: 50px;
+}
+main .inicio .div-one {
+  text-align: center;
+}
+main .inicio .div-one .image-two:hover {
+  transform: rotate(360deg);
+  transition: all 2s;
+}
+main .inicio .paragraph-one {
+  border: black 1px solid;
+}
+main .inicio .paragraph-one:hover {
+  background-color: blanchedalmond;
+  transition: all 2s;
+}
+
+main .nosotros {
+  margin: 50px;
+}
+main .nosotros .carousel-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 100%;
+}
+main .nosotros .carousel-item img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+}
+main .nosotros .carousel-control-prev-icon, main .nosotros .carousel-control-next-icon {
+  background-color: black;
+}
+main .promociones {
+  text-align: center;
+  margin: 50px;
+}
+
+main .grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 500px);
+  row-gap: 30px;
+  column-gap: 20px;
+  text-align: center;
+  margin: 50px;
+}
+main .grid-container .grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main .grid-container .grid-item img {
+  width: 400px;
+  height: 400px;
+}
+main .grid-container .grid-item img:hover {
+  width: 500px;
+  height: 500px;
+  transition: all 2s;
+}
+main .grid-container .grid-item h3 {
+  text-align: center;
+}
+
+main .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border: 1px solid #000;
+  padding: 10px;
+  margin: 50px;
+}
+main .container .section-one iframe.mapa {
+  width: 800px;
+  height: 450px;
+}
+main .container .section-two .image-red {
+  width: 50px;
+  height: 50px;
+}
+main .formulario form li {
+  list-style: none;
+}
+
+.copyright {
+  font-family: "Times New Roman", Times, serif;
+  font-size: medium;
+}
+
+/*# sourceMappingURL=estilos.css.map */

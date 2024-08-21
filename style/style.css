@@ -1,0 +1,147 @@
+/*HEADER*/
+
+.image-logo {
+    width: 100px;
+    height: 100px;
+}
+
+.bg-one {
+    background-color: blanchedalmond;
+}
+
+.nav-item:hover {
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+.inicio {
+    margin: 50px;
+}
+
+.nosotros {
+    margin: 50px;
+}
+
+.carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.carousel-item img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: black;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 500px);
+
+    row-gap: 30px;
+    column-gap: 20px;
+    text-align: center;
+    margin: 50px;
+}
+
+.grid-item img {
+    width: 80%;
+    height: 80%;
+}
+
+h3 {
+    text-align: center;
+}
+
+.image-red {
+    width: 50px;
+    height: 50px;
+}
+
+.div-one {
+    text-align: center;
+}
+
+.image-two {
+    width: 80%;
+    height: 500px;
+    display: inline-block;
+}
+
+.paragraph-one {
+    text-align: center;
+    font-size: large;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.paragraph-two {
+    text-align: center;
+    font-size: large;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: 1px solid #000;
+    padding: 10px;
+    margin: 50px;
+}
+
+
+.promociones {
+    text-align: center;
+    margin: 50px;
+}
+
+li {
+    list-style: none;
+}
+/*FOOTER*/
+.copyright {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+
+}
+
+@media screen and (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 500px);
+
+    }
+
+    .mapa {
+        width: 200px;
+        height: 200px;
+    }
+
+    .image-two {
+        width: 400px;
+        height: 200px;
+    }
+
+    .paragraph-one, .paragraph-two {
+        font-size: small;
+    }
+
+    .copyright {
+        font-size: x-small;
+    }
+
+    .promociones img {
+        width: 300px;
+        height: 300px;
+    }
+
+}

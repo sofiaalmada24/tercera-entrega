@@ -1,0 +1,28 @@
+main {
+    .nosotros {
+        margin: $margen;
+
+        .carousel {
+            &-item {
+                @include flex-center;
+                height: 500px;
+                width: 100%;
+
+                img {
+                    max-height: 100%;
+                    max-width: 100%;
+                    object-fit: contain;
+                }
+            }
+
+            &-control-prev-icon,
+            &-control-next-icon {
+                background-color: black;
+            }
+        }
+
+        .paragraph-two {
+            @extend %paragraph ;
+        }
+    }
+}
